@@ -1,0 +1,23 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Configuration
+python-dotenv==1.0.1
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# MongoDB
+motor==3.6.0
+pymongo==4.9.2
+
+# Auth
+PyJWT==2.10.1
+
+# External APIs (Groq, Plate Recognizer, Fast2SMS, Razorpay)
+httpx==0.28.1
+
+# Computer vision / camera processing
+opencv-python-headless==4.10.0.84
+numpy==2.1.3
